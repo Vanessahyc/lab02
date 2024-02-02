@@ -56,13 +56,16 @@ header {
     position: relative;
     background-color: rgb(242,230,177);
   }
+
 .pg-header-container{
     display:flex;
     justify-content: center;
 }
+
 .nav-container{
     display:flex;
 }
+
 .nav-list, .banner-menu{
     list-style-type: none;
 }
@@ -74,7 +77,6 @@ header {
         display: none;
     }
 }
-
 
 /* 2.3 medium and up */
 
