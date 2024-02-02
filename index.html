@@ -22,7 +22,7 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body class="pg-container">
+<body>
 
   <header class="pg-header">
     <div class="inner-container row">
@@ -73,7 +73,6 @@
 
   </header>
 
-  <main class="pg-main-container">
 
     <div class="pg-description">
       <h1>Hey guys! This is the Metrolics theme. It sports a responsive layout with a mobile layout.</h1>
@@ -164,14 +163,14 @@
   ------------------------------------------------------------------------------>
     <section class="section-container">
 
-      <div class="inner-container row">
+      <div class="inner-container row m-col-2 l-col-3">
 
-        <div class="title-container col">
+        <div class="title-container m-row-span l-row-span col">
           <h2 class="title">Our Latest Projects</h2>
           <h3 class="subtitle">Client happy? We are happy.</h3>
         </div>
 
-        <div class="p-item">
+        <div class="p-item col">
           <img class="p-image">
           <div class="description-bar">
             <h5>Sample Image Post</h5>
@@ -180,7 +179,7 @@
           </div>
         </div>
 
-        <div class="p-item">
+        <div class="p-item col">
           <img class="p-image">
           <div class="description-bar">
             <h5>Sample Image Post</h5>
@@ -189,7 +188,7 @@
           </div>
         </div>
 
-        <div class="p-item">
+        <div class="p-item col">
           <img class="p-image">
           <div class="description-bar">
             <h5>Sample Image Post</h5>
@@ -198,7 +197,7 @@
           </div>
         </div>
 
-        <div class="p-item">
+        <div class="p-item col">
           <img class="p-image">
           <div class="description-bar">
             <h5>Sample Image Post</h5>
@@ -207,7 +206,7 @@
           </div>
         </div>
 
-        <div class="p-item">
+        <div class="p-item col">
           <img class="p-image">
           <div class="description-bar">
             <h5>Sample Image Post</h5>
@@ -216,7 +215,7 @@
           </div>
         </div>
 
-        <div class="p-item">
+        <div class="p-item col">
           <img class="p-image">
           <div class="description-bar">
             <h5>Sample Image Post</h5>
@@ -230,70 +229,77 @@
     </section>
 
     <!------------Decide later------------->
-    <section class="section-container">
-      <div class="title-container">
-        <h2 class="title">What's Up Lately</h2>
-        <h3 class="subtitle">Read up on our latest work</h3>
-      </div>
+    <section class="section-container s-hide">
+      <div class="inner-container row l-col-2">
+        <div class="title-container m-row-span l-row-span col">
+          <h2 class="title">Things of above</h2>
+          <h3 class="subtitle">Misc stuff we could not put anyplace else</h3>
+        </div>
 
-      <div class="display-item"></div>
-      <div class="display-item"></div>
+        <div class="display-item col">Grid</div>
+        <div class="display-item col">Grid</div>
+      </div>
     </section>
     <!-----------Decide later------------->
 
-    <div class="section-container">
-      <img class="co-logo">
-      <img class="co-logo">
-      <img class="co-logo">
-      <img class="co-logo">
-      <img class="co-logo">
-    </div>
-
-  </main>
-
-  <footer class="footer-container">
-
-    <div class="designer-intro">
-      <img class="headshot">
-      <h6 class="designer-name">Peewee Herman</h6>
-      <p class="description"></p>
-    </div>
-
-    <div class="footer-item">
-      <h5>About Us</h5>
-      <p></p>
-      <div class="sm-icon"></div>
-      <div class="sm-icon"></div>
-      <div class="sm-icon"></div>
-      <div class="sm-icon"></div>
-      <div class="sm-icon"></div>
-    </div>
-    
-    <div class="footer-item">
-      <h5>Flicker Photos</h5>
-      <div class="fp-image"></div>
-      <div class="fp-image"></div>
-      <div class="fp-image"></div>
-      <div class="fp-image"></div>
-    </div>
-
-    <div class="footer-item">
-      <h5>Recent Tweets</h5>
-      <div class="comment-icon"></div>
-      <p></p>
-      <div class="comment-icon"></div>
-      <p></p>
-    </div>
-
-    <div class="footer-item">
-      <h5>Newsletter</h5>
-      <p></p>
-      <div class="ft-input">
-        Enter your Email
-        <img class="send-icon">
+    <div class="section-container s-hide">
+      <div class="inner-container row m-col-5 l-col-5">
+        <div class="co-logo col">logo img</div>
+        <div class="co-logo col">logo img</div>
+        <div class="co-logo col">logo img</div>
+        <div class="co-logo col">logo img</div>
+        <div class="co-logo col">logo img</div>
       </div>
     </div>
 
+  <!---------------------------------------------------------------------------
+      Footer Section
+  ------------------------------------------------------------------------------>
+
+  <footer class="footer-container">
+    <div class="inner-container row m-col-2 l-col-4">
+
+      <div class="designer-intro m-row-span l-row-span col">
+        <img class="headshot">
+        <h6 class="designer-name">Peewee Herman</h6>
+        <p class="description"></p>
+      </div>
+
+      <div class="footer-item col">
+        <h5 class="s-hide">About Us</h5>
+        <p></p>
+        <div class="sm-icon"></div>
+        <div class="sm-icon"></div>
+        <div class="sm-icon"></div>
+        <div class="sm-icon"></div>
+        <div class="sm-icon"></div>
+      </div>
+      
+      <div class="footer-item col s-hide">
+        <h5>Flicker Photos</h5>
+        <div class="fp-image"></div>
+        <div class="fp-image"></div>
+        <div class="fp-image"></div>
+        <div class="fp-image"></div>
+      </div>
+
+      <div class="footer-item col">
+        <h5>Recent Tweets</h5>
+        <div class="comment-icon"></div>
+        <p></p>
+        <div class="comment-icon"></div>
+        <p></p>
+      </div>
+
+      <div class="footer-item col s-hide">
+        <h5>Newsletter</h5>
+        <p></p>
+        <div class="ft-input">
+          Enter your Email
+          <img class="send-icon">
+        </div>
+      </div>
+    </div>
   </footer>
 
 
