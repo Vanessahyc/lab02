@@ -123,7 +123,7 @@ header {
     }
     .l-col-4 {
         grid-template-columns: repeat(4, 1fr);
-    }
+    } 
     .l-col-5 {
         grid-template-columns: repeat(5, 1fr);
     }
