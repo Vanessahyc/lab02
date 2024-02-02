@@ -29,3 +29,28 @@ p {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+/* ==========================================================================
+   2. LAYOUT
+   ========================================================================== */
+
+div,
+main,
+section,
+footer,
+header {
+    outline: 1px solid #ccc;
+    min-height: 1rem;
+    padding: 1rem;
+}
+
+/* 2.1 Core layout */
+
+.row {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.col {
+    position: relative;
+    background-color: rgb(242, 230, 177);
+}
