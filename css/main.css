@@ -1,0 +1,56 @@
+/* ==========================================================================
+   BASE
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/* ==========================================================================
+   2. LAYOUT
+   ========================================================================== */
+
+div,
+main,
+section,
+footer,
+header {
+    outline: 1px solid #ccc;
+    min-height: 1rem;
+    padding: 1rem;
+}
+
+/* 2.1 Core layout */
+
+.row {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.col {
+    position: relative;
+    background-color: rgb(242, 230, 177);
+}
