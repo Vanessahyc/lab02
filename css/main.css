@@ -12,6 +12,7 @@ html {
 *:before,
 *:after {
     box-sizing: border-box;
+    margin: 0;
 }
 
 h1,
@@ -36,6 +37,52 @@ body {
 img{
     width: 100%;
 }
+
+/* ==========================================================================
+   Vanessa's Project Sections
+   ========================================================================== */
+
+.p-image img {
+    object-fit: cover;
+}
+
+.example {
+    position: relative;
+    height: 190px;
+    padding: 0;
+}
+   
+.description-bar {
+    background-color: #19b2de;
+    color: #fff;
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.db-icon {
+    width: 40px;
+    height: auto;
+}
+
+.text-content {
+    padding: 0;
+    outline: none;
+}
+
+.text-content h5{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-content p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 200;
+}
+
 /* ==========================================================================
    2. LAYOUT
    ========================================================================== */
@@ -59,7 +106,6 @@ header {
 
 .col {
     position: relative;
-    background-color: rgb(242, 230, 177);
 }
 
 .pg-header-container{
