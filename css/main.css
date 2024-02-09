@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
     font-family: Ubuntu, sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     text-align: center;
 }
 
@@ -37,6 +37,33 @@ body {
 img{
     width: 100%;
 }
+
+/*==============================================================================
+Header
+=============================================================================== */
+.pg-logo-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:400px;
+    height: 80px;
+}
+
+.pg-menu-icon{
+    width:40px;
+    height:40px;
+}
+
+.pg-logo {
+    width:180px;
+    height: 40px;
+}
+
+.metrolics{
+    color: rgb(30, 175, 222);
+}
+
 
 /* ==========================================================================
    Vanessa's Project Sections
