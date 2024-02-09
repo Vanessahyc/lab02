@@ -42,10 +42,6 @@ img{
    Vanessa's Project Sections
    ========================================================================== */
 
-.p-image img {
-    object-fit: cover;
-}
-
 .example {
     position: relative;
     height: 190px;
@@ -82,6 +78,154 @@ img{
     font-size: 12px;
     font-weight: 200;
 }
+
+/* ==========================================================================
+   Vanessa's Footer Sections
+   ========================================================================== */
+.footer-container {
+    background-color: #16242f;
+    position: relative;
+}
+
+.designer-intro {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+}
+
+.designer-intro h6 {
+    font-size: 12pt;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 0.8rem;
+}
+
+.designer-intro p {
+    font-size: 9pt;
+    font-style: italic;
+    font-weight: 300;
+    color: #fff;
+}
+
+.headshot {
+    width: 11rem;
+    height: 11rem;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.sm-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.sm-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.fb {
+    background-color: #527cc4;
+}
+
+.google {
+    background-color: #e46145;
+}
+
+.twitter {
+    background-color: #00b0e2;
+}
+
+.ins {
+    background-color: #f6679c;
+}
+
+.wifi {
+    background-color: #fea501;
+}
+
+.footer-item h5{
+    font-size: 12pt;
+    color: #fff;
+    text-align: left;
+    font-weight: 400;
+}
+
+.footer-item p {
+    color: #fff;
+    font-size: 9pt;
+}
+
+.orange-line {
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid #de6262;
+    width: 20rem;
+    outline: none;
+}
+
+.comment-inner-container {
+    display: flex;
+}
+
+.comment-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #5c666f;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.twitter-icon {
+    width: 1.5rem;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.text-blue {
+    color: #1bade6;
+    font-weight: bold;
+}
+
+.color-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-box {
+    width: 5.3rem;
+}
+
+.green {
+    background-color: #25c389;
+}
+
+.yellow {
+    background-color: #ffb901;
+}
+
+.red {
+    background-color: #de6262;
+}
+
+.lightblue {
+    background-color: #1691bd;
+}
+
+.darkblue {
+    background-color: #166ba2;
+}
+
 
 /* ==========================================================================
    2. LAYOUT
