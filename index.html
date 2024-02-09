@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Metrolics Homepage</title>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   <meta name="description" content="This is the Metrolics Theme!">
 
   <meta property="og:title" content="">
@@ -22,14 +25,15 @@
 </head>
 
 <body>
+<!---------------------------------------------------------------------------
+      Header Section
+  ------------------------------------------------------------------------------>
 
   <header class="pg-header">
     <div class="pg-header-container row">
       <div class="pg-logo-menu col">
-        <h1>CSS Grid Header</h1>
-        <!--<img class="pg-logo">
-        <img class="pg-menu-icon">
-        -->
+        <img class="pg-logo" src="/img/header-logo.png" alt="Metrolics logo">
+        <img class="pg-menu-icon m-hide l-hide" src="/img/menu-icon.png" alt="menu">
       </div>
       <nav class="pg-nav row s-hide">
         <ul class="nav-container">
@@ -72,7 +76,7 @@
     </div>
   </header>
 
-  <section class="pg-carousel">
+  <section class="pg-carousel s-hide">
     <div class="pg-carousel-container row s-hide">
       <div class="pg-carousel-content col">
         <h1>Carousel</h1>
@@ -86,20 +90,27 @@
     </div>
   </section>
 
+  <!---------------------------------------------------------------------------
+      Description Section
+  ------------------------------------------------------------------------------>
+
   <section class="pg-description">
     <div class="pg-description-container row">
       <div class="pg-description-content col">
-        <h1>CSS Grid Description</h1>
-        <!--Hey guys! This is the Metrolics theme. It sports a responsive layout with a mobile layout.-->
+        <h1>Hey guys! This is the <span class="metrolics">Metrolics</span> theme.<br>It sports a responsive layout with a mobile layout.</h1>
       </div>
     </div>
 </section>
 
+<!---------------------------------------------------------------------------
+      Service Section
+  ------------------------------------------------------------------------------>
+
 <section class="section-container">
   <div class="service-container row m-col-2 l-col-4">
     <div class="title-container m-row-span l-row-span col">
-      <h2 class="title">Things That We Do</h2>
-      <h3 class="subtitle">Ask us what we can do for you</h3>
+      <h1 class="title">Things That We Do</h1>
+      <h6 class="subtitle">Ask us what we can do for you</h6>
     </div>
 
     <div class="service-item col">
