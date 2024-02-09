@@ -85,8 +85,10 @@ img{
 .footer-container {
     background-color: #16242f;
     position: relative;
+    padding: 0;
 }
 
+/* about designer **/
 .designer-intro {
     display: flex;
 }
@@ -116,18 +118,13 @@ img{
     object-fit: fill;
     border-radius: 50%;
 }
-
+/* social media icons **/
 .sm-icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
 
-}
-
-.sm-icon {
-    width: 4rem;
-    height: 4rem;
 }
 
 .fb {
@@ -149,7 +146,19 @@ img{
 .wifi {
     background-color: #fea501;
 }
+/* flicker photos **/
+.fp-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0;
+}
 
+.fp-grid img {
+    width: 100%;
+}
+
+/* recent tweet **/
 .footer-item h5{
     font-size: 12pt;
     color: #fff;
@@ -160,13 +169,6 @@ img{
 .footer-item p {
     color: #fff;
     font-size: 9pt;
-}
-
-.orange-line {
-    padding-bottom: 0.2rem;
-    border-bottom: 2px solid #de6262;
-    width: 20rem;
-    outline: none;
 }
 
 .comment-inner-container {
@@ -196,12 +198,31 @@ img{
     font-weight: bold;
 }
 
-.color-tag {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* New letter **/
+.email-input {
+    border: none;
+    background-color: #de6262;
+    width: 15rem;
+    height: 3rem;
+    padding: 1rem;
 }
 
+.email-input::placeholder {
+    color: #fff;
+    font-size: 10pt;
+}
+
+.input-container {
+    padding: 0;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.input-container img {
+    width: 3rem;
+    height: 3rem;
+}
+/* New letter **/
 .color-box {
     width: 5.3rem;
 }
@@ -224,6 +245,34 @@ img{
 
 .darkblue {
     background-color: #166ba2;
+}
+
+.green-line {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #25c389;
+    outline: none;
+    margin-bottom: 1.5rem;
+}
+
+.yellow-line {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ffb901;
+    outline: none;
+    margin-bottom: 1.5rem;
+}
+
+.orange-line {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #de6262;
+    outline: none;
+    margin-bottom: 1.5rem;
+}
+
+.blue-line {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #1691bd;
+    outline: none;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -271,6 +320,18 @@ header {
     .s-hide {
         display: none;
     }
+
+    .sm-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .color-tag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
 }
 
 /* 2.3 medium and up */
@@ -301,6 +362,29 @@ header {
     }
     .m-1-2 {
         grid-template-columns: 1fr 2fr;
+    }
+
+    .sm-icon-container {
+        justify-content: left;
+        padding: 0;
+        margin-top: 1.5rem;
+    }
+
+    .sm-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .headshot {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .color-tag {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        padding-bottom: 0;
     }
 }
 
@@ -342,5 +426,12 @@ header {
     }
     .l-hide {
         display: none;
+    }
+
+    .color-tag {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        padding-bottom: 0;
     }
 }
