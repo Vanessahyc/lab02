@@ -146,6 +146,46 @@ Service Section
 .fa-pencil{
     color: rgb(31,168,212);
 }
+
+/*==============================================================================
+Latest updates Section
+=============================================================================== */
+.p-item{
+    padding:0;
+}
+
+.description-bar {
+    margin-top:-6px;
+}
+.date-container{
+    width:65px;
+    height: 50px;
+    padding:8px;
+    background-color: rgb(216,96,96);
+    position:absolute;
+}
+
+.date{
+    font-size: 10px;
+    color:rgb(255,255,255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.day{
+    font-size: 15px;
+}
+
+.camera-icon-bg{
+    background-color: rgb(21,150,189);
+    width:40px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ==========================================================================
    Vanessa's Project Sections
    ========================================================================== */
