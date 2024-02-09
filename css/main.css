@@ -56,7 +56,7 @@ Header
 }
 
 .pg-logo {
-    width:180px;
+    width:170px;
     height: 40px;
 }
 
@@ -65,6 +65,87 @@ Header
 }
 
 
+/*==============================================================================
+Service Section
+=============================================================================== */
+.title{
+    font-size:20px;
+}
+
+.subtitle{
+    color: rgb(163, 163, 163);
+    font-size:10px;
+}
+
+.service-item{
+    display: flex;
+    padding:0.6rem;
+}
+
+.service-icon{
+    width:50px;
+    height:50px;
+}
+
+.service-details{
+    display: column;
+    align-items: left;
+    padding:0;
+    margin-left:10px;
+}
+.service-title{
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:5px;
+    text-align: left;
+}
+
+.service-description{
+    color: rgb(163, 163, 163);
+    font-size:0.65rem;
+    text-align: left;
+    padding:0;
+}
+
+.service-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height:50px;
+}
+
+.icon-yellow{
+    border: 2px solid rgb(254,185,2);
+}
+
+.fa-lightbulb-o{
+    color:rgb(254,185,2);
+}
+
+.icon-green{
+    border: 2px solid rgb(37,195,137);
+}
+
+.fa-picture-o{
+    color:rgb(37,195,137);
+}
+
+.icon-red{
+    border: 2px solid rgb(231,97,94);
+}
+
+.fa-cogs{
+    color: rgb(231,97,94);
+}
+
+.icon-blue{
+    border: 2px solid rgb(31,168,212);
+}
+
+.fa-pencil{
+    color: rgb(31,168,212);
+}
 /* ==========================================================================
    Vanessa's Project Sections
    ========================================================================== */
