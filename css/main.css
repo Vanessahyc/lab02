@@ -167,13 +167,13 @@ Carousel
 /*==============================================================================
 Service Section
 =============================================================================== */
-.title{
-    font-size:20px;
+.title {
+    font-size: 16pt;
 }
 
 .subtitle{
     color: rgb(163, 163, 163);
-    font-size:10px;
+    font-size: 10pt;
 }
 
 .service-item{
@@ -293,25 +293,14 @@ Latest updates Section
 /* ==========================================================================
    Vanessa's Project Sections
    ========================================================================== */
-
-.example {
-    position: relative;
-    height: 190px;
-    padding: 0;
-}
    
 .description-bar {
     background-color: #19b2de;
     color: #fff;
     display: flex;
-    height: 65px;
+    height: 4.5rem;
     align-items: center;
     justify-content: space-between;
-}
-
-.db-icon {
-    width: 40px;
-    height: auto;
 }
 
 .text-content {
@@ -319,16 +308,25 @@ Latest updates Section
     outline: none;
 }
 
-.text-content h5{
+.text-content h5 {
     margin: 0;
-    font-size: 16px;
+    font-size: 14pt;
     font-weight: 400;
 }
 
 .text-content p {
     margin: 0;
-    font-size: 12px;
+    font-size: 11pt;
     font-weight: 200;
+}
+
+.file-icon {
+    background-color: rgb(21,150,189);
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ==========================================================================
@@ -637,6 +635,22 @@ header {
         justify-content: right;
         align-items: right;
         padding-bottom: 0;
+    }
+
+    .title {
+        font-size: 20pt;
+    }
+
+    .subtitle {
+        font-size: 12pt;
+    }
+
+    .text-content h5 {
+        font-size: 16pt;
+    }
+
+    .text-content p {
+        font-size: 12pt;
     }
 }
 
