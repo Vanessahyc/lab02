@@ -285,6 +285,11 @@ Latest updates Section
     justify-content: center;
 }
 
+/* Accordin menu section images **/
+.inner-container {
+    max-width: 70rem;
+}
+
 /* ==========================================================================
    Vanessa's Project Sections
    ========================================================================== */
