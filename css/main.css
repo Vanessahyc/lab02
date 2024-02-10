@@ -41,6 +41,9 @@ img{
 /*==============================================================================
 Header
 =============================================================================== */
+.pg-header{
+    padding:0;
+}
 .pg-logo-menu{
     display: flex;
     flex-direction: row;
@@ -50,6 +53,9 @@ Header
     height: 80px;
 }
 
+.pg-header-container{
+    padding:0;
+}
 .pg-menu-icon{
     width:40px;
     height:40px;
@@ -63,6 +69,57 @@ Header
 .metrolics{
     color: rgb(30, 175, 222);
 }
+
+.nav-list, .nav-container{
+    padding:0;
+    margin:0;  
+    position:relative;
+
+}
+
+.nav-item{
+    width:100px;
+    height:100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-bg{
+    border-radius: 50%;
+    background-color: rgb(255,255,255);
+    opacity: 0.2;
+}
+
+.nav-title{
+    color: rgb(255,255,255);
+    position:absolute;
+}
+.home{
+    background-color: rgb(37,195,137) ;
+}
+
+.pages{
+    background-color: rgb(254,185,1) ;
+}
+
+.blog{
+    background-color:rgb(222,98,98);
+}
+
+.portfolio{
+    background-color: rgb(22,145,189);
+}
+
+.home-blue{
+    background-color: rgb(22,107,162);
+}
+
+.fa-home, .fa-sitemap, .fa-bullhorn, .fa-briefcase , .fa-envelope, .fa-angle-right{
+    color: rgb(255,255,255);
+}
+
 
 /*==============================================================================
 Carousel
