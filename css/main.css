@@ -52,7 +52,7 @@ Header
 }
 
 .pg-header-container{
-    display: flex;
+    display: inline-block;
     padding:0;
 }
 /* .pg-menu-icon{
@@ -634,6 +634,11 @@ header {
         margin-right: 1rem;
     }
 
+    .pg-header-container{
+        display: inline-block;
+        padding-left: 2rem;
+    }
+
    .pg-description-container, .pg-description-content{
         padding-top:0;
     }
@@ -680,6 +685,12 @@ header {
 
     .pg-nav{
         width:45%;
+    }
+
+    .pg-header-container{
+        display: inline-block;
+        padding-left: 10rem;
+        width:90%;
     }
 
     .sm-icon-container {
