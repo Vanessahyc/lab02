@@ -377,6 +377,14 @@ Latest updates Section
 
 }
 
+
+.sm-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 .fb {
     background-color: #527cc4;
 }
@@ -393,7 +401,7 @@ Latest updates Section
     background-color: #f6679c;
 }
 
-.wifi {
+.rss {
     background-color: #fea501;
 }
 /* flicker photos **/
@@ -437,10 +445,8 @@ Latest updates Section
     margin-right: 1rem;
 }
 
-.twitter-icon {
-    width: 1.5rem;
-    border-radius: 50%;
-    padding: 0;
+.fa-twitter {
+    color: #fff;
 }
 
 .text-blue {
@@ -468,33 +474,27 @@ Latest updates Section
     display: flex;
 }
 
-.input-container img {
+.input-container i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-paper-plane {
     width: 3rem;
     height: 3rem;
+    background-color: #fea501;
+    color: #fff;
 }
 /* New letter **/
-.color-box {
-    width: 5.3rem;
+.color-tag-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom:0;
 }
 
-.green {
-    background-color: #25c389;
-}
-
-.yellow {
-    background-color: #ffb901;
-}
-
-.red {
-    background-color: #de6262;
-}
-
-.lightblue {
-    background-color: #1691bd;
-}
-
-.darkblue {
-    background-color: #166ba2;
+.color-tag {
+    width: 28rem;
 }
 
 
@@ -587,12 +587,12 @@ header {
         height: 4rem;
     }
 
-    .color-tag {
+    .color-tag-container {
         display: flex;
         justify-content: center;
-        align-items: center;
-        padding: 0;
+        padding-bottom:0;
     }
+    
 }
 
 /* 2.3 medium and up */
