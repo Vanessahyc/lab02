@@ -41,24 +41,26 @@ img{
 /*==============================================================================
 Header
 =============================================================================== */
-.pg-header{
-    padding:0;
+.pg-header {
+    padding: 0 1rem;
 }
+
 .pg-logo-menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 30%;
 }
 
 .pg-header-container{
-    display: flex;
     padding:0;
 }
 /* .pg-menu-icon{
     width:40px;
     height:40px;
 } */
+
 
 .metrolics{
     color: rgb(30, 175, 222);
@@ -680,9 +682,10 @@ header {
         grid-template-columns: 1fr 2fr;
     }
 
-    .pg-nav{
+    /* .pg-nav{
         width:45%;
-    }
+    } */
+
 
     .sm-icon-container {
         justify-content: left;
