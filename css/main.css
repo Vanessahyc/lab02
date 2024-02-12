@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
     font-family: Ubuntu, sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -49,22 +49,16 @@ Header
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width:400px;
-    height: 80px;
 }
 
 .pg-header-container{
+    display: flex;
     padding:0;
 }
-.pg-menu-icon{
+/* .pg-menu-icon{
     width:40px;
     height:40px;
-}
-
-.pg-logo {
-    width:170px;
-    height: 40px;
-}
+} */
 
 .metrolics{
     color: rgb(30, 175, 222);
@@ -77,9 +71,13 @@ Header
 
 }
 
+.nav-item-container{
+    position: absolute;
+}
+
 .nav-item{
-    width:100px;
-    height:100px;
+    width:6.25rem;
+    height:6.25rem;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -90,12 +88,24 @@ Header
     border-radius: 50%;
     background-color: rgb(255,255,255);
     opacity: 0.2;
+    position:absolute;
+    top:0rem;
+    right:0.5rem;
 }
-
+.nav-title-container{
+    position:relative;
+    top:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    padding:0 0.8rem 0 0.8rem;
+    border: none;
+}
 .nav-title{
     color: rgb(255,255,255);
-    position:absolute;
 }
+
 .home{
     background-color: rgb(37,195,137) ;
 }
@@ -116,9 +126,14 @@ Header
     background-color: rgb(22,107,162);
 }
 
-.fa-home, .fa-sitemap, .fa-bullhorn, .fa-briefcase , .fa-envelope, .fa-angle-right{
+.fa-home, .fa-sitemap, .fa-bullhorn, .fa-briefcase , .fa-envelope{
     color: rgb(255,255,255);
+    position:relative;
+    bottom:0.7rem;
+    left:0.1rem;
 }
+.fa-angle-right{
+    color: rgb(255,255,255);}
 
 
 /*==============================================================================
@@ -128,6 +143,8 @@ Carousel
     background-color: rgb(235,235,235);
     width:100%;
     height:auto;
+    display: flex;
+    align-items: center;
     padding:0;
 }
 
@@ -135,10 +152,13 @@ Carousel
     width:50%;
     height: 100%;
     padding: 0;
+    position:absolute;
 }
 
 .banner-menu{
     font-family: Ubuntu, sans-serif;
+    position: absolute;
+    left:28%;
 }
 .banner-menu-blue{
     background-color: rgb(238,244,251);
@@ -164,6 +184,19 @@ Carousel
     border-left: 5px solid rgb(254,185,2);
 }
 
+.fa-chevron-circle-right{
+    color: rgb(255,255,255);
+    position: absolute;
+    top:45%;
+    left:95%;
+}
+
+.fa-chevron-circle-left{
+    color: rgb(255,255,255);
+    position: absolute;
+    top:45%;
+    right:95%;
+}
 /*==============================================================================
 Service Section
 =============================================================================== */
@@ -546,7 +579,7 @@ main,
 section,
 footer,
 header {
-    outline: 1px solid #ccc;
+    /* outline: 1px solid #ccc; */
     min-height: 1rem;
     padding: 1rem;
 }
@@ -593,6 +626,23 @@ header {
         padding-bottom:0;
     }
     
+    .pg-logo-menu{
+        width:20rem;
+        padding-bottom:0;
+    }
+
+    .pg-logo{
+        margin-right: 1rem;
+    }
+
+   .pg-description-container, .pg-description-content{
+        padding-top:0;
+    }
+
+    .section-container, .service-container, .title-container{
+        padding-top:0;
+        padding-bottom:0;
+    }
 }
 
 /* 2.3 medium and up */
@@ -623,6 +673,10 @@ header {
     }
     .m-1-2 {
         grid-template-columns: 1fr 2fr;
+    }
+
+    .pg-nav{
+        width:45%;
     }
 
     .sm-icon-container {
@@ -662,6 +716,13 @@ header {
 
     .text-content p {
         font-size: 12pt;
+    }
+
+    .pg-logo{
+        width:160px;
+        height: 30px;
+        position:absolute;
+        top:3.5rem
     }
 }
 
