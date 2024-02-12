@@ -22,11 +22,11 @@ h4,
 h5,
 h6 {
     font-family: Ubuntu, sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     text-align: center;
 }
 
-p {
+p, .date {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -178,23 +178,28 @@ Service Section
 
 .service-item{
     display: flex;
-    padding:0.6rem;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    
 }
 
 .service-icon{
     width:50px;
     height:50px;
+    margin-left:10px;
 }
 
 .service-details{
     display: column;
-    align-items: left;
+    align-items: center;
     padding:0;
-    margin-left:10px;
+    margin-left:15px;
+  
 }
 .service-title{
     font-size:12px;
-    font-weight:bold;
+    font-weight:700;
     margin-bottom:5px;
     text-align: left;
 }
@@ -273,6 +278,7 @@ Latest updates Section
 }
 
 .day{
+    font-family: Ubuntu, sans-serif;
     font-size: 15px;
 }
 
@@ -299,6 +305,7 @@ Latest updates Section
     background-color: #19b2de;
     color: #fff;
     display: flex;
+    width:100%;
     height: 65px;
     align-items: center;
     justify-content: space-between;
@@ -590,6 +597,30 @@ header {
         row-gap: 1.5rem;
         margin: 0 auto;
     }
+
+    .col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-icon{
+        width: 60px;
+        height: 60px;
+    }
+
+    .service-details{
+        display: column;
+        align-items: center;
+        padding:0;
+        margin: 10px;
+        width:18rem;
+    }
+
+    .service-title, .service-description{
+        text-align: center;
+    }
+
     .grid {
         display: grid;
         column-gap: 0.5rem;
@@ -610,7 +641,7 @@ header {
     .m-1-2 {
         grid-template-columns: 1fr 2fr;
     }
-
+    
     .sm-icon-container {
         justify-content: left;
         padding: 0;
@@ -675,10 +706,35 @@ header {
         display: none;
     }
 
+    .p-item{
+        position:relative;
+    }
     .color-tag {
         display: flex;
         justify-content: right;
         align-items: right;
         padding-bottom: 0;
+    }
+
+    .date-container{
+        position: absolute;
+        right:17.6rem;
+    }
+
+    .service-icon{
+        width: 60px;
+        height: 60px;
+    }
+
+    .service-details{
+        display: column;
+        align-items: center;
+        padding:0;
+        margin: 10px;
+        width:13rem;
+    }
+
+    .service-title, .service-description{
+        text-align: center;
     }
 }
