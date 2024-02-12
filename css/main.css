@@ -68,7 +68,6 @@ Header
     padding:0;
     margin:0;  
     position:relative;
-
 }
 
 .nav-item-container{
@@ -225,17 +224,18 @@ Service Section
     padding:0;
     margin-left:10px;
 }
+
 .service-title{
     font-size:12px;
     font-weight:bold;
     margin-bottom:5px;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .service-description{
     color: rgb(163, 163, 163);
     font-size:0.65rem;
-    text-align: left;
+    /* text-align: left; */
     padding:0;
 }
 
@@ -530,7 +530,6 @@ Latest updates Section
     width: 28rem;
 }
 
-
 .green-line {
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #25c389;
@@ -643,6 +642,10 @@ header {
         padding-top:0;
         padding-bottom:0;
     }
+
+    .service-title, .service-description{
+        text-align: left;
+    }
 }
 
 /* 2.3 medium and up */
@@ -724,6 +727,19 @@ header {
         position:absolute;
         top:3.5rem
     }
+    .service-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0.6rem;
+    }
+    .service-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        text-align: center;
+        padding:0.6rem;
+    }
 }
 
 
@@ -771,5 +787,19 @@ header {
         justify-content: right;
         align-items: right;
         padding-bottom: 0;
+    }
+
+    .service-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0.6rem;
+    }
+    .service-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        text-align: center;
+        padding:0.6rem;
     }
 }
